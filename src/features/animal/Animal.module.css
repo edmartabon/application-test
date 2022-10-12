@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+}
+
+.breed {
+  width: 15%;
+}
+
+.dogLists {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: auto;
+}
+
+.item {
+  width: 20%;
+}
+
+.item img {
+  width: 100%;
+}
+
+.dogImage {
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #CCC;
+  position: relative;
+  cursor: pointer;
+}
+
+.dogTitle {
+  color: #FFF;
+  padding-left: 15px;
+}
+
+.dogBreeds h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.dogBreeds li {
+  list-style-type: none;  
+  padding: 10px 0;
+}
+
+.breedInfo {
+  padding-left: 10px;
+}
+
+.like {
+  position: absolute;
+  bottom: 15px;
+  right: 12px;
+}
+
+.badge {
+  border-radius: 5px;
+  background-color: #0984e3;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  text-align: center;
+}
